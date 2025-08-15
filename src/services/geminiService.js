@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI("AIzaSyBrA3rxeem_NBKV7o2ckexu-HT1W5GwdYI");
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GOOGLE_GEN_AI_API_KEY);
 
 
 class GeminiService {
