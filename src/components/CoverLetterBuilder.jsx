@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useCoverLetter } from '../contexts/CoverLetterContext';
 import { geminiService } from '../services/geminiService';
-import CoverLetterTemplates from './coverLetter/CoverLetterTemplates';
+import CoverLetterTemplates from './coverletter/CoverLetterTemplates';
 import { FaRobot, FaCopy, FaEye, FaDownload, FaEdit, FaRedo, FaEnvelope, FaStar, FaHeart, FaGem, FaPen, FaSpinner } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
